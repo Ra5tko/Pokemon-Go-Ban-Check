@@ -68,7 +68,7 @@ namespace PokemonGOBanCheck
                 }
                 else if (status == "Not Banned")
                 {
-                    MessageBox.Show("Congratulations, your account has not been banned!", "Congratulations :)", MessageBoxButton.OK, MessageBoxImage.Asterisk);
+                    MessageBox.Show("Congratulations, your account has not been banned yet!", "Congratulations :)", MessageBoxButton.OK, MessageBoxImage.Asterisk);
                 }
                 else if (status == ""){}
                 else
