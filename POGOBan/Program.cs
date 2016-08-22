@@ -66,7 +66,6 @@ namespace POGOBan
                     return;
                 }
             }
-            Console.Clear();
             Console.WriteLine(output);
         }
 
