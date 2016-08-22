@@ -5,7 +5,7 @@ namespace POGOBan
 {
     public class Options
     {
-        [OptionArray('t', "provider", Required = true, HelpText = "Login provider for Pokémon GO, use Google for Google login and PTC for Pokémon Trainer Club login.")]
+        [OptionArray('t', "provider", Required = true, HelpText = "Login provider for Pokémon GO, use Google for a Google login and PTC for a Pokémon Trainer Club login.")]
         public string[] Provider { get; set; }
 
         [OptionArray('u', "username", Required = true, HelpText = "Username for your Pokémon GO account. For multiple accounts separate each username with a space.")]
