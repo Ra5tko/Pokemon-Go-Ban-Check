@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="C5, Version=2.4.5947.17248, Culture=neutral, PublicKeyToken=282361b99ded7e8e, processorArchitecture=MSIL">
       <HintPath>..\packages\C5.2.4.5947.17249\lib\net45\C5.dll</HintPath>
@@ -155,6 +158,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FodyWeavers.xml" />
+    <Content Include="logo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <UsingTask TaskName="CosturaCleanup" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll" TaskFactory="CodeTaskFactory">
